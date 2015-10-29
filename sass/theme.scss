@@ -4,8 +4,13 @@
 @import 'mixins';
 
 // Load partials here
+@import 'partials/nav';
 @import 'partials/hero';
+@import 'partials/bio';
+@import 'partials/whatis';
 
+// font
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
 
 // Globals
 .contain {
@@ -14,4 +19,12 @@
 	padding: $contain-padding;
 }
 
-.row { margin: none; }
+.row { margin: 0px; }
+
+* {
+	font-family: "quicksand"
+}
+
+.hideOnLoad {
+	opacity: 0;
+}

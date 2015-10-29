@@ -1,0 +1,25 @@
+#bio {
+	background-color: $mofongoGreen;
+	color: #fff;
+	.contain {
+		position: relative;
+		padding: 160px 15px;
+		.title {
+			text-align: center;
+			position: relative;
+			.typed {
+				position: relative;
+				&:after {
+					content: ' ';
+					position: absolute;
+					width: 100%;
+					height: 2px;
+					background-color: #fff;
+					bottom: -4px;
+					left: 4px;
+
+				}
+			}
+		}
+	}
+}

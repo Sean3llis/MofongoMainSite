@@ -20,13 +20,17 @@ gulp.task('sass', function () {
         .pipe(sourcemaps.init())
         .pipe(sass())
         .pipe(sourcemaps.write())
-        .pipe(gulp.dest('css/'))
-        .pipe(livereload({start: true}));
+        .pipe(gulp.dest('css/'));
 });
 
 gulp.task('watch', function () {
-    gulp.watch('**/*.scss', ['sass']);
+    gulp.watch('**/*.scss', ['sass', 'reload']);
 });
+
+gulp.task('reload', function(){
+    gulp.src(['*', '!node_modules'])
+        .pipe(livereload({start:true}))
+})
 
 gulp.task('minify-css', function() {
   return gulp.src('css/theme.css') // much faster 

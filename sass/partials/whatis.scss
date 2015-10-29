@@ -1,0 +1,17 @@
+#whatis {
+	background: url('../assets/pilonbg_gray.png');
+	background-repeat: repeat;
+	.title {
+		position: relative;
+	}
+	.row {
+		padding-top: 100px;
+		.panel {
+			padding: 20px;
+			img {
+				margin: 0 auto;
+				max-height: 120px;
+			}
+		}
+	}
+}
