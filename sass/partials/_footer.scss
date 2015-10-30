@@ -1,0 +1,18 @@
+footer {
+	background-color: rgb(51, 51, 51);
+	color: #fff;
+	padding: 200px 0px;
+	position: relative;
+	.contain {
+		position: relative;
+		z-index: 100;
+	}
+	img {
+		max-width: 50px;
+		margin-bottom: 30px;
+	}
+	.overlay {
+		height: auto;
+		background-color: rgba(0,0,0,0.8);
+	}
+}

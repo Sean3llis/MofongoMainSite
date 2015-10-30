@@ -1,6 +1,10 @@
-<footer>
+<footer style="background-image: url('<?php getAsset('soup.jpg'); ?>'); background-size: cover;">
+	<div class="overlay"></div>
 	<div class="contain">
-		&copy; | <?php echo date('Y'); ?>
+		<img src="<?php getAsset('mofongo-icon.svg'); ?>" alt="">
+		<div class="copy">
+			&copy; | <?php echo date('Y'); ?>
+		</div>
 	</div>
 </footer>
 

@@ -1,7 +1,5 @@
 (function($){$(document).ready(function(){
-	var s = skrollr.init({
-		forceHeight: true
-	});
+	var s = skrollr.init();
 
 	$('.typed').typed({
 		strings: ['MADE IN BROOKLYN', 'BORN IN PUERTO RICO'],

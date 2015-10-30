@@ -20,4 +20,11 @@
 			margin: 0 auto;
 		}
 	}
+	@media screen and (max-width: $break-small) {
+		.press-mention {
+			padding: 40px 0px;
+			display: block;
+			
+		}
+	}
 }

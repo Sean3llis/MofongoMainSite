@@ -3,9 +3,24 @@
 		padding-bottom: 140px;
 		.row {
 			padding-top: 100px;
+			.founder-col {
+				text-align: right;
+			}
+			.nolo-col {
+				text-align: left;
+			}
 		}
 		img {
 			max-height: 200px;
+		}
+	}
+	@media screen and (max-width: $break-small) {
+		.contain .row {
+			padding-top: 20px;
+			.founder-col, .nolo-col {
+				text-align: center;
+				padding: 20px 0px;
+			}
 		}
 	}
 }

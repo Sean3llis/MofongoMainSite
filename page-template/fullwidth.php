@@ -13,8 +13,8 @@ get_header(); ?>
 
 	<?php get_template_part('partials/press'); ?>
 
-
-	<div id="insta" <?php fadeDownIn(20); ?>>
+	<?php if(!wp_is_mobile() ) : ?>
+	<div id="insta">
 		<?php echo do_shortcode('[instagram-feed]'); ?>
 	</div>
 
@@ -22,5 +22,8 @@ get_header(); ?>
 	<div id="map">
 		<?php echo do_shortcode('[wpgmza id="1"]'); ?>
 	</div>
+	<?php else : ?>
+		<style>.hideOnLoad { opacity: 1; }</style>
+	<?php endif; ?>
 
 <?php get_footer(); ?>

@@ -10,6 +10,7 @@
 @import 'partials/whatis';
 @import 'partials/founder';
 @import 'partials/press';
+@import 'partials/footer';
 
 // font
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
@@ -30,4 +31,8 @@
 
 .hideOnLoad {
 	opacity: 0;
+}
+
+#map {
+	height: 500px;
 }

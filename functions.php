@@ -29,8 +29,10 @@ function fadeLeftIn($distance){
 }
 
 function fadeDownIn($distance = 40, $offset = 200){
-	echo 'data--' . $offset . '-bottom-top="opacity: 0; top: -' . $distance . 'px"
-				data-center="opacity: 1; top: 0px"';
+	if( !wp_is_mobile() ){
+		echo 'data--' . $offset . '-bottom-top="opacity: 0; top[swing]: -' . $distance . 'px"
+					data-center="opacity: 1; top: 0px"';
+	}
 }
 
 function getAsset($name){

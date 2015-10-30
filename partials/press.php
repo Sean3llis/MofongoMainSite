@@ -1,7 +1,7 @@
 <div id="press"
 style="background-image: url('<?php getAsset('platanos_frying_cropped.png'); ?>'); background-size: cover;"
-data-bottom-top="background-position: 0px 0px"
-data-center="background-position: 0px -200px">
+data-bottom-top="background-position: 0px 30%"
+data-center="background-position: 0px 80%">
 	<div class="overlay"></div>
 	<div class="contain">
 		<h2 class="title">Press</h2>
