@@ -11,13 +11,15 @@ get_header(); ?>
 
 	<?php get_template_part('partials/founder'); ?>
 
+	<?php get_template_part('partials/press'); ?>
 
-	<div id="insta">
+
+	<div id="insta" <?php fadeDownIn(20); ?>>
 		<?php echo do_shortcode('[instagram-feed]'); ?>
 	</div>
 
 
-	<div id="map">
+	<div id="map" >
 		<?php echo do_shortcode('[wpgmza id="1"]'); ?>
 	</div>
 
