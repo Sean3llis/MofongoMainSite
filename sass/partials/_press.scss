@@ -1,0 +1,23 @@
+#press {
+	position: relative;
+	background-position: bottom center;
+	.overlay {
+		height: auto;
+	}
+	.contain {
+		position: relative;
+		padding: 100px 0px;
+		z-index: 100;
+		.title {
+			color: #fff;
+		}
+	}
+	.press-mention {
+		padding: 0px 100px;
+		display: inline-block;
+		img {
+			max-width: 200px;
+			margin: 0 auto;
+		}
+	}
+}

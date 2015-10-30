@@ -1,7 +1,18 @@
 <div id="press"
-style="background-image: url('<?php getAsset('platanos_frying.jpg'); ?>'); background-size: cover;">
+style="background-image: url('<?php getAsset('platanos_frying_cropped.png'); ?>'); background-size: cover;"
+data-bottom-top="background-position: 0px 0px"
+data-center="background-position: 0px -200px">
+	<div class="overlay"></div>
 	<div class="contain">
-		<h1>Press</h1>
+		<h2 class="title">Press</h2>
+
+		<div class="press-mention">
+			<a
+				href="http://www.nytimes.com/slideshow/2015/10/28/dining/caribbean-restaurants-nyc/s/28CARIBBEAN-slide-ESK0.html?smid=fb-share&_r=0"
+				target="_blank">
+					<img src="<?php getAsset('press/nytimes_white.png'); ?>" alt="NYTimes + Mofongo">
+			</a>
+		</div>
 
 		<div class="press-mention">
 			<a

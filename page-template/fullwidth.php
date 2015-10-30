@@ -19,7 +19,7 @@ get_header(); ?>
 	</div>
 
 
-	<div id="map" >
+	<div id="map">
 		<?php echo do_shortcode('[wpgmza id="1"]'); ?>
 	</div>
 
