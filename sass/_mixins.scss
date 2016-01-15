@@ -5,3 +5,9 @@
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+
+@mixin mofo-p {
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: 1px;
+}

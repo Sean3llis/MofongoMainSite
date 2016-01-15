@@ -1,4 +1,4 @@
-<footer style="background-image: url('<?php getAsset('soup.jpg'); ?>'); background-size: cover;">
+<footer style="background-image: url('<?php getAsset('platanos_closeup.jpg'); ?>'); background-size: cover;">
 	<div class="overlay"></div>
 	<div class="contain">
 		<img src="<?php getAsset('mofongo-icon.svg'); ?>" alt="">

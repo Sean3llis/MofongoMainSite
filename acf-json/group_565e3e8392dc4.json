@@ -1,0 +1,22 @@
+{
+    "key": "group_565e3e8392dc4",
+    "title": "Home Fields",
+    "fields": [],
+    "location": [
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "4"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [],
+    "old_ID": 8,
+    "modified": 1449016963
+}

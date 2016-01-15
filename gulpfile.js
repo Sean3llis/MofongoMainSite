@@ -23,12 +23,12 @@ gulp.task('sass', function () {
         .pipe(gulp.dest('css/'));
 });
 
-gulp.task('watch', function () {
+gulp.task('watch', ['sass'], function () {
     gulp.watch('**/*.scss', ['sass', 'reload']);
 });
 
 gulp.task('reload', function(){
-    gulp.src(['*', '!node_modules'])
+    gulp.src(['*.php', '!node_modules'])
         .pipe(livereload({start:true}))
 })
 

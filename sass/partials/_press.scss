@@ -1,6 +1,6 @@
 #press {
 	position: relative;
-	background-position: bottom center;
+	background-position: 0px -60px;
 	.overlay {
 		height: auto;
 	}
@@ -10,21 +10,39 @@
 		z-index: 100;
 		.title {
 			color: #fff;
+			font-size: 40px;
+			margin-bottom: 80px;
+			.highlight {
+				display: block;
+				
+			}
+		}
+		.row {
+			padding: 20px;
 		}
 	}
+
 	.press-mention {
-		padding: 0px 100px;
-		display: inline-block;
+		padding: 0px 20px;
 		img {
-			max-width: 200px;
 			margin: 0 auto;
+			max-height: 52px;
+			width: auto;
+			max-width: 100%;
+		}
+		&.remezcla img {
+			max-height: 70px;
+		}
+		&.gothamist img {
+			height: 74px;
 		}
 	}
+
 	@media screen and (max-width: $break-small) {
 		.press-mention {
-			padding: 40px 0px;
-			display: block;
-			
+			max-width: 75%;
+			padding: 20px 0px;
+			margin: 0 auto;
 		}
 	}
 }

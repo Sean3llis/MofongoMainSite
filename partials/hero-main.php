@@ -5,6 +5,7 @@
 
 	<div class="overlay"></div>
 	<div class="contain">
+
 		<div class="titles">
 			<img
 				id="mainLogo"

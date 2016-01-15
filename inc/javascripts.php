@@ -6,6 +6,7 @@
 			// vendor
 			wp_enqueue_script( 'bootstrap_JS', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '', true );
 			wp_enqueue_script( 'velocity_JS', get_template_directory_uri() . '/js/velocity.min.js', array('jquery'), '', true );
+			wp_enqueue_script( 'velocity_ui_JS', get_template_directory_uri() . '/js/velocity.ui.min.js', array('velocity_js'), '', true );
 			wp_enqueue_script( 'skrollr_JS', get_template_directory_uri() . '/js/skrollr.min.js', array(), '', true );
 			wp_enqueue_script( 'typed_JS', get_template_directory_uri() . '/js/typed.min.js', array('jquery'), '', true );
 
